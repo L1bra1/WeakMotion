@@ -127,10 +127,10 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--DATA_DIR',
-                        default='/media/ruibo/cc84e27f-82c0-43ca-8f28-5b4c37369175/liruibo/dataset/AA-motion-data/waymo/waymo-unzipped',
+                        default='/path_to/Waymo/Waymo-npy-data/',
                         type=str)
     parser.add_argument('--SAVE_ROOT_DIR',
-                        default='/home/ruibo/Documents/A-Task/Pillar/AA-code-for-release/tmp-data/Waymo',
+                        default='/path_to/Waymo/input-data/',
                         type=str)
     args = parser.parse_args()
 
