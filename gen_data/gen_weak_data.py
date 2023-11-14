@@ -21,9 +21,9 @@ def check_folder(folder_name):
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-r', '--root', default='/path_to/nuScenes/nuScenes-unzipped', type=str, help='Root path to nuScenes dataset')
+parser.add_argument('-r', '--root', default='/path_to/nuScenes/nuScenes-data/', type=str, help='Root path to nuScenes dataset')
 parser.add_argument('-s', '--split', default='train', type=str, help='The data split [train/val]')
-parser.add_argument('-p', '--savepath', default='/path_to/nuScenes/weak-data', type=str, help='Directory for saving the generated data')
+parser.add_argument('-p', '--savepath', default='/path_to/nuScenes/weak-data/', type=str, help='Directory for saving the generated data')
 
 args = parser.parse_args()
 
