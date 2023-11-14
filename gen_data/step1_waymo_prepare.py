@@ -28,9 +28,9 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--waymo_tfrecord_dir', default='/media/ruibo/a82f96e5-b9de-4dec-ba6f-ce51fe58b430/ruibo/Documents/dataset/Waymo-motion', type=str)
+parser.add_argument('--waymo_tfrecord_dir', default='/path_to/Waymo/Waymo-tf-data/', type=str)
 parser.add_argument('--split', default='training', type=str, help='The data split [training/validation]')
-parser.add_argument('--waymo_save_dir', default='/home/ruibo/Documents/A-Task/Pillar/AA-code-for-release/tmp-data/Waymo/Waymo-npy-data', type=str)
+parser.add_argument('--waymo_save_dir', default='/path_to/Waymo/Waymo-npy-data/', type=str)
 
 args = parser.parse_args()
 
