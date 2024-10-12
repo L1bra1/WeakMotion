@@ -1,7 +1,7 @@
 
 ## Data preprocess
 ### nuScenes 
-1. Prepare the Waymo data.
+1. Prepare the nuScenes data.
 
    - Download the [nuScenes data](https://www.nuscenes.org/) and follow [MotionNet](https://www.merl.com/research/?research=license-request&sw=MotionNet) to process the data, we want the data to be saved like this:
    
